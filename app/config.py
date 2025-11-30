@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     
     # LLM Configuration
     openai_api_key: Optional[str] = None
-    ollama_base_url: str = "https://8e3eca15916a.ngrok-free.app"
+    ollama_base_url: str = "http://localhost:11434"
     # ollama_model: str = "llama3.1:latest"
     ollama_model: str = "gemma2:9b"
    
@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     mysql_host: str = "localhost"
     mysql_port: int = 3306
     mysql_user: str = "root"
-    mysql_password: str = "mysql"
+    mysql_password: str = "mysql_password_here"
     mysql_database: str = "tcs_forecast"
     
     # Application Settings
