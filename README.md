@@ -434,6 +434,7 @@ tcs-forecast-agent/
 ├── data/
 │   ├── reports/             # Financial report PDFs
 │   └── transcripts/         # Earnings call transcripts
+├── .gitignore
 ├── requirements.txt         # Python dependencies
 ├── setup.sql               # Database schema
 ├── Test1.py               # Test script
